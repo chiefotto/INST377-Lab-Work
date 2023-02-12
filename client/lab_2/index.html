@@ -1,59 +1,53 @@
-Replace this with your complete HTML from Lab 1
-
-Hook it up to CSS by including style.css in the <head> tag
-
-Then add CSS class names to your HTML to make it look like the lab pictures.
-For example: <div class="selector">
-
-You should not need to edit the CSS to do this, only the HTML.
-
-Don't forget to add an actual set of image descriptions to your image carousel.
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Christian Lab 1</title>
+  <title>Christian Lab 2</title>
   <link rel="stylesheet" href="style.css">
 </head>
+
+
 <body>
-  <div>
-    <header><h1>Chrisitan's Labs For INST377</h1></header>
-    <div>
-      <div><h3>Album Names:</h3></div>
-      <ol>
-        <li>Bang PT 2 - Chief Keef</li>
-        <li><p>Self Titled - Playboi Carti</p></li>
-        <li><p>Live.Love.A$AP - Asap Rocky</p></li>
-        <li><p>No Stylist - Destroy Lonely</p></li>
-        <li><p>Do it for Demon - SahBabii</p></li>
-      </ol>
-      <div>
-      <h3>Image Carousel:</h3>
-      </div>
-      <div>
-        <img src="images/images-4149f7/images/mochi.jpg" alt="jpg form">
-        <img src="images/images-4149f7/images/mochi2.png" alt="png form">
-        <img src="images/images-4149f7/images/mochi3.gif" alt="gif form">
-        <img src="images/images-4149f7/images/mochi4.svg" alt="svg form">
-        <div>
-          <P>These images may all seem similar but whats seperating all of them is
-            what type of file they are
-          </P>
-          <ol>
-            <li>The first image represents a photo in the JPG format,</li>
-            <li>While the second remains in PNG format,</li>
-            <li>As the third being in GIF format(hence the movement),</li>
-            <li>And lastly being in SVG format.</li>
-          </ol>
+  <div class="wrapper">
+    <header class="header"><h1>Chrisitan's Labs For INST377</h1></header>
+    <div class="container">
+        <div class="left_section box">
+            <h3>Album Names:</h3>
+            <div class="box">
+                <ol>
+                    <li>Bang PT 2 - Chief Keef</li>
+                    <li><p>Self Titled - Playboi Carti</p></li>
+                    <li><p>Live.Love.A$AP - Asap Rocky</p></li>
+                    <li><p>No Stylist - Destroy Lonely</p></li>
+                    <li><p>Do it for Demon - SahBabii</p></li>
+                </ol>
+            </div>
         </div>
-      </div>
-      
-      
-    </div>
-  </div>
-  <footer><a href="https://github.com/chiefotto" target="_blank" rel="noopener noreferrer">Christian Marchello (chiefotto) github account</a></footer>
+  
+        <div class="right_section box">
+            <h3>Image Carousel:</h3>
+                    <img src="images/mochi3.gif" alt="gif form">
+                    <img src="images/mochi.jpg" alt="jpg form">
+                    <img src="images/mochi2.png" alt="png form">
+                    <img src="images/mochi4.svg" alt="svg form" width="150" height="150">
+                <div class="box">
+                    <P>These images may all seem similar but whats seperating all of them is
+                        what type of file they are
+                    </P>
+                    <ol>
+                        <li>The first image represents a photo in the JPG format,</li>
+                        <li>While the second remains in PNG format,</li>
+                        <li>As the third being in GIF format(hence the movement),</li>
+                        <li>And lastly being in SVG format.</li>
+                    </ol>
+                </div>
+
+            </div>
+        </div>
+        <footer class="footer">
+            Chrisitan Marchello <a href="https://github.com/chiefotto">github account</a>
+        </footer>
 </body>
 </html>
