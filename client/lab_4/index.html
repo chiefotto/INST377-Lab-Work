@@ -16,7 +16,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Christian Lab 4</title>
-    <link rel="'stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
@@ -27,17 +27,24 @@
         <div class="container">
             <div class="left_section">
                 <h3>Form Inputs</h3>
-                <form action="/api">
-                    <label for="resto"></label>
-                    <input type="text" name="resto" id="resto">
-                    <button type="submit">submit</button>
-                </form>
+                <div class="box">
+                    <form action='https://data.princegeorgescountymd.gov/resource/umjn-t2iz.json'>
+                        Restaurant Name
+                        <label for="resto"></label>
+                        <input type="text" name="" id="resto">
+                        <button type="submit">Submit</button>
+                    </form>
+                </div>
             </div>
-            <div class="right_section"></div>
-            <h3>Local Restaurants</h3>
-            <div class="restaurant_list">A list of local Restaurants</div>
+            <div class="right_section box">
+                <h3>Local Restaurants</h3>
+                <div class="box">A list of local Restaurants</div>
+            </div> 
         </div>
     </div>
+    <footer class="footer box">
+        Chrisitan Marchello <a href="https://github.com/chiefotto">github account</a>
+    </footer>
 
 </body>
 
