@@ -6,7 +6,9 @@
 /* A quick filter that will return something based on a matching input */
 function filterList(list, query) {
   return list.filter((item) =>{
-    
+    const lowerCaseName = item.name.toLowerCase();
+    const lowerCaseQuery = query.toLowerCase();
+    return lowerCaseName.includes(lowerCaseQuery);
 
   })
   /*
@@ -67,6 +69,8 @@ filterButton.addEventListener('click', (event) => {
 
   console.log(formProps);
   const newList = filterList(currentList,formProps.resto);
+
+  console.log(newList);
 })
   /*
     Now that you HAVE a list loaded, write an event listener set to your filter button
